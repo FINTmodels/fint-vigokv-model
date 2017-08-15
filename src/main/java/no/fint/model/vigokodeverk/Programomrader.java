@@ -1,0 +1,65 @@
+package no.fint.model.vigokodeverk;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import no.fint.model.felles.kompleksedatatyper.Identifikator;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@EqualsAndHashCode
+public class Programomrader {
+    public enum Relasjonsnavn {
+        LAREPLAN,
+        MERKELAPP,
+        PROGRAMOMRADEKATEGORI,
+        VARIANTAVPROGRAMOMRADE,
+        ERSTATTER,
+        UTDANNINGSPROGRAM
+    }
+
+    private String apo;
+    private String avsluttendeKompetanse;
+    private String beskrivelse;
+    private String fstype;
+    private String forsteSemester;
+    private String gyldigFoM;
+    private String gyldigToM;
+    private String importer;
+    private String kanVareLandslinje;
+    private String kode;
+    private String landsdekkendeLinje;
+    private String navn;
+    private String navnBokmal;
+    private String navnEngelsk;
+    private String navnFransk;
+    private String navnKortform;
+    private String navnKortformEngelsk;
+    private String navnKortformNynorsk;
+    private String navnKortformSamisk;
+    private String navnLangt;
+    private String navnNynorsk;
+    private String navnSamisk;
+    private String navnSpansk;
+    private String navnTysk;
+    private String niva;
+    private String nuskode;
+    private String poengberegnes;
+    private Identifikator PSI;
+    private String samlekodeTAF;
+    private String sisteSemester;
+    private String type;
+    private String typeProgramomrade;
+    private String utdanningsprogram;
+    private String utgatt;
+    private String variantAvProgramomrade;
+    private String arstimer;
+    private String arstimerDoveTunghorte;
+    private String arstimerFormgivingsfag;
+    private String arstimerSamisk;
+    private String arstimerStatistikk;
+    private String arstrinn;
+}
+
