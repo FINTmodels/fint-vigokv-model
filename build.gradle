@@ -8,10 +8,11 @@ apply plugin: 'groovy'
 apply plugin: 'maven'
 
 sourceCompatibility = 1.8
+group = 'no.fint'
+version = '1.0.0-rc1'
 
 jar {
     baseName = 'fint-vigokv-model'
-    version = '1.0.0-rc1'
 }
 
 repositories {
