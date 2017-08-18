@@ -1,9 +1,10 @@
 package no.fint.model.vigokodeverk;
 
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
@@ -11,14 +12,14 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Kompetansemal {
-    public enum Relasjonsnavn {
-        HOVEDOMRADE,
-        KOMPETANSEMALSETT
-    }
+	public enum Relasjonsnavn {
+			HOVEDOMRADE,
+			KOMPETANSEMALSETT
+	}
 
-    private String gammelKode;
-    private String kode;
-    private String navn;
-    private Identifikator PSI;
-}
+	private String gammelKode;
+	private Identifikator kode;
+	private String navn;
+	private Identifikator PSI;
+	}
 
