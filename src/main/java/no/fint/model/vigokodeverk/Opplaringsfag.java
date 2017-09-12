@@ -1,9 +1,11 @@
+// Built from tag feature-vigokv
+
 package no.fint.model.vigokodeverk;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
@@ -18,7 +20,8 @@ public class Opplaringsfag {
 			KOMPETANSEMALSETT,
 			MERKELAPP,
 			ERSTATTER,
-			DELFAG
+			DELFAG,
+			TILHORERPROGRAMOMRADE
 	}
 
 	private String delfag;

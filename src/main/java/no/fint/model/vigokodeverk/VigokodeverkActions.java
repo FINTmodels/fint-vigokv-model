@@ -1,3 +1,5 @@
+// Built from tag feature-vigokv
+
 package no.fint.model.vigokodeverk;
 
 import java.util.Arrays;
