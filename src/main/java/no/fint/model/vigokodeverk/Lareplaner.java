@@ -17,7 +17,7 @@ public class Lareplaner {
 	public enum Relasjonsnavn {
 			MERKELAPP,
 			ERSTATTER,
-			LAREPLAN,
+			HOVEDOMRADE,
 			KOMPETANSEMALSETT,
 			PROGRAMOMRADE
 	}

@@ -17,6 +17,7 @@ public class Kompetansemalsett {
 	public enum Relasjonsnavn {
 			KOMPETANSEMAL,
 			LAREPLAN,
+			HOVEDOMRADE,
 			FAG
 	}
 
