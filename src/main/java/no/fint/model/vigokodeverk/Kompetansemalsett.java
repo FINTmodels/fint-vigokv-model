@@ -15,6 +15,7 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @EqualsAndHashCode
 public class Kompetansemalsett {
 	public enum Relasjonsnavn {
+			GREP,
 			KOMPETANSEMAL,
 			LAREPLAN,
 			HOVEDOMRADE,

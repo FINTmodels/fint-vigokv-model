@@ -14,6 +14,10 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Fagmerknader {
+	public enum Relasjonsnavn {
+			GREP
+	}
+
 	private String fagskolen;
 	private String grunnskole;
 	private String gyldigFoM;

@@ -17,6 +17,7 @@ public class Opplaringsfag {
 	public enum Relasjonsnavn {
 			STANDARDKOMMENTAR,
 			FAGTYPE,
+			GREP,
 			KOMPETANSEMALSETT,
 			MERKELAPP,
 			ERSTATTER,

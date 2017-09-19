@@ -15,6 +15,7 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @EqualsAndHashCode
 public class Lareplaner {
 	public enum Relasjonsnavn {
+			GREP,
 			MERKELAPP,
 			ERSTATTER,
 			HOVEDOMRADE,

@@ -16,6 +16,7 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 public class Programomrader {
 	public enum Relasjonsnavn {
 			FAGUNDERPROGRAMOMRADE,
+			GREP,
 			LAREPLAN,
 			MERKELAPP,
 			OPPLARINGSFAGUNDERPROGRAMOMRADE,

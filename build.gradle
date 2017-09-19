@@ -9,7 +9,7 @@ apply plugin: 'maven'
 
 sourceCompatibility = 1.8
 group = 'no.fint'
-version = '1.2.0.rc3'
+version = '1.2.0.rc4'
 
 jar {
     baseName = 'fint-vigokv-model'

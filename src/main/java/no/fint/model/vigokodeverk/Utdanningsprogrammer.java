@@ -15,6 +15,7 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @EqualsAndHashCode
 public class Utdanningsprogrammer {
 	public enum Relasjonsnavn {
+			GREP,
 			ERSTATTER,
 			PROGRAMOMRADE
 	}

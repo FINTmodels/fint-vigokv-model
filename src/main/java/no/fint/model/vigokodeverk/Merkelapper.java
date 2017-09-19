@@ -14,6 +14,10 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Merkelapper {
+	public enum Relasjonsnavn {
+			GREP
+	}
+
 	private String navn;
 	private Identifikator PSI;
 	}
