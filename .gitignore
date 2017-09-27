@@ -11,3 +11,4 @@ out
 .settings/
 *.ipr
 *.iws
+.vscode/
