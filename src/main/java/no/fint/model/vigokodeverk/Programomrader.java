@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
+import java.util.List;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
@@ -13,6 +15,7 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
+@ToString
 public class Programomrader {
 	public enum Relasjonsnavn {
 			FAGUNDERPROGRAMOMRADE,
@@ -58,9 +61,7 @@ public class Programomrader {
 	private String sisteSemester;
 	private String type;
 	private String typeProgramomrade;
-	private String utdanningsprogram;
 	private String utgatt;
-	private String variantAvProgramomrade;
 	private String arstimer;
 	private String arstimerDoveTunghorte;
 	private String arstimerFormgivingsfag;

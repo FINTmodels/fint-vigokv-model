@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
+import java.util.List;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
@@ -13,11 +15,13 @@ import no.fint.model.felles.kompleksedatatyper.Identifikator;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
+@ToString
 public class Merkelapper {
 	public enum Relasjonsnavn {
 			GREP
 	}
 
+	private Identifikator kode;
 	private String navn;
 	private Identifikator PSI;
 	}
