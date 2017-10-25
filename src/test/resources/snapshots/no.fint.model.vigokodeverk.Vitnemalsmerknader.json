@@ -1,0 +1,35 @@
+{
+  "fagskolen" : "vjEVzJyhxDWvjihalaLEJJLvq",
+  "grunnskole" : "RPkeJHGQkjhdtldmvKrEd",
+  "gyldigFoM" : "tKE",
+  "gyldigToM" : "PFSSFvmTIPNmyZZUxxjKCEmw",
+  "kode" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "JquleUBeikSBSxGK",
+      "slutt" : 1746055651734,
+      "start" : 1307463750813
+    },
+    "identifikatorverdi" : "qpYRqQsDkSBUdmZOhGiHStqQxf"
+  },
+  "navn" : "DOtblYAYqHMypKDdG",
+  "navnBokmal" : "lYjJsrCWCrpOVCodFdgkQTBh",
+  "navnEngelsk" : "EtGGdIrKvWjgzKFaaI",
+  "navnKortform" : "KtfSBQKDpvfdczQIpnPpMJ",
+  "navnKortformEngelsk" : "AMDnfwhq",
+  "navnKortformNynorsk" : "zOXOGqLABCMBkXpSkpVhcLIwWNKxDkYC",
+  "navnKortformSamisk" : "ugw",
+  "navnNynorsk" : "CvYJKeiYqwhzkWdYoyu",
+  "navnSamisk" : "bREKcggxnHdPaNhZtxuUdorXHovbu",
+  "sistEndret" : "xyTPlEIPtWCzPSBqwwGX",
+  "standardkommentarVitnemalType" : "GZfrrjNSJnptMyTZlSBpRoh",
+  "utgatt" : "SFoDDqNGpAzOhFzSyfxbnaNp",
+  "videregaende" : "wWUuMxPimKCLzJjSqpiqboJwlnNNwAAd",
+  "psi" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "AyGQixCtpNw",
+      "slutt" : 1576490219718,
+      "start" : 1581375677746
+    },
+    "identifikatorverdi" : "dvZCQexVFsvnwdEcBLAoxwHvEmH"
+  }
+}

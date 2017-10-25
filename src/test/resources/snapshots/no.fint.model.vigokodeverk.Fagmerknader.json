@@ -1,0 +1,35 @@
+{
+  "fagskolen" : "PFLAsU",
+  "grunnskole" : "PyUdqw",
+  "gyldigFoM" : "EgxOdrwuvZIMdBXtfzzWcPB",
+  "gyldigToM" : "mjliLwmRTrNHDCcvRxapKIBOWYlecGD",
+  "kode" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "HPFsyXneVj",
+      "slutt" : 1373848657842,
+      "start" : 1709529985263
+    },
+    "identifikatorverdi" : "ERMHHUxltbeYQtMx"
+  },
+  "navn" : "pTPwqIhzjsNi",
+  "navnBokmal" : "gsiVxwtjvn",
+  "navnEngelsk" : "TZfsrQrSJhUDINzmqFun",
+  "navnKortform" : "aswgzYPpoHKKAWOZVZMXQiuLflee",
+  "navnKortformEngelsk" : "nJYXNlKLddb",
+  "navnKortformNynorsk" : "NnLNQyzMZmLUwKt",
+  "navnKortformSamisk" : "vwvDpbYEOhC",
+  "navnNynorsk" : "Nus",
+  "navnSamisk" : "UvTUVMnJWVTW",
+  "sistEndret" : "gVwWhmFBlYWVOnG",
+  "standardkommentarVitnemalType" : "mwjoeWuxpFzWcdszdGfkoUJoGG",
+  "utgatt" : "wNHJjzqMkcUyVJtsUqBZGFHInZREtu",
+  "videregaende" : "TEvOteNXICpTY",
+  "psi" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "wGJ",
+      "slutt" : 1456788835811,
+      "start" : 1488211659931
+    },
+    "identifikatorverdi" : "WyObqETPtwaIoiwZbDIQaiwQJkfBOGev"
+  }
+}

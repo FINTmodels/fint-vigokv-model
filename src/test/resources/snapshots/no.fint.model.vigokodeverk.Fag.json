@@ -1,0 +1,54 @@
+{
+  "elevtgrl" : "Lue",
+  "fagskolen" : "xnATef",
+  "forsteEksamen" : "DTWNnJFSXSJwljhtxBDHRqY",
+  "forstUndervist" : "lnleCTKxhNYvWL",
+  "gammelFagkode" : "Exh",
+  "gyldigFoM" : "AOSJrWyfnBJsdTopAfVLSuqzDwngXsx",
+  "gyldigToM" : "HZunBbAhhajsVmMBLUDy",
+  "hjelpemidler" : "rAWqMtUWMoK",
+  "hjelpemidlerSentralEksamen" : "ISEfdkUsoJUmhRDgUvztmhd",
+  "importer" : "QpUfrZKdWIpA",
+  "kode" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "ALhfIwzMKXxu",
+      "slutt" : 1317676072524,
+      "start" : 1704301139280
+    },
+    "identifikatorverdi" : "goGQaLLrmnveVbhvjvIFyCtcuQF"
+  },
+  "merknad" : "xPCBrprbRZ",
+  "navn" : "jhnGwCUTYmNXWcvHQfuMaUxTacTJbylP",
+  "navnBokmal" : "KpgKjrWAhZkZIP",
+  "navnEngelsk" : "yaDAxMIVTHQHaRlHYrKNEvJUgxoZj",
+  "navnFransk" : "kHrFgnwXDXLbNrifhZmutVNDJq",
+  "navnKortform" : "wnxoHzCprefmahpbipIXU",
+  "navnKortformEngelsk" : "rZzzvSmWKYOPxNqzbVDOcvisZ",
+  "navnKortformNynorsk" : "usKJtJmhFeXvJSsYkEZvkQ",
+  "navnKortformSamisk" : "UwGRvDrmHneRPebbfBQQw",
+  "navnLangt" : "uv",
+  "navnNynorsk" : "z",
+  "navnSamisk" : "zCZSOmSQPaZzrPzmqelPhejDldgrMM",
+  "navnSpansk" : "frWUzCT",
+  "navnTysk" : "ssZ",
+  "nettoOmfang" : "HXeoLpkfrXymBssVVuLDG",
+  "omfangVitnemal" : "dxKedxBHDVMyuRtU",
+  "oppgavetype" : "bdYPhXWSc",
+  "sensurtype" : "xmypp",
+  "sisteEksamen" : "ReKMuiLOeGytsVVABBzXA",
+  "sistUndervist" : "RBPpRDducnWmJMXqHQO",
+  "standardKommentar" : "nZgVHHSKBj",
+  "totaltOmfang" : "ecmpiiRGbmXXUeJWu",
+  "tverrfag" : "XslrCH",
+  "utenStandpunkt" : "RMYoPqIklgllfbXZAowNhb",
+  "utgatt" : "sqKNgtNzdBYeIQNngD",
+  "arstimerStatistikk" : "cZUMC",
+  "psi" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "KPGbnaaZaO",
+      "slutt" : 1309603912473,
+      "start" : 1652821879141
+    },
+    "identifikatorverdi" : "LxdGpJNvZJqK"
+  }
+}

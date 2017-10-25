@@ -1,0 +1,41 @@
+{
+  "dokumentreferanse" : "eUmYQnysCsgBambj",
+  "formal" : "yASFzRBCWpvkVAICcM",
+  "forsteEksamen" : "fVheYrfSDBSWhzsWMSTVIlgrJlNXTEPw",
+  "grunnleggendeFerdighetBeskrivelse" : "QJTlPnBJMQQFtAZxNbvnQXxwC",
+  "grunnleggendeFerdighetDigitaleVerktoy" : "vOLhabJBcui",
+  "grunnleggendeFerdighetFritekst" : "jkSuyqwMKwdwkgjVcpmxWHvGXMkdjyr",
+  "grunnleggendeFerdighetLese" : "uUTJktFL",
+  "grunnleggendeFerdighetMuntlig" : "nmWgMpz",
+  "grunnleggendeFerdighetRegne" : "TESBDmJdFPEnhPNKuSxieUmWFPX",
+  "grunnleggendeFerdighetSkriftlig" : "iWfpmVVzJJpEQjRqBEUrpm",
+  "gyldigFra" : "QXTEVYg",
+  "gyldigTil" : "tFiwuhvloizg",
+  "hovedomraderIFaget" : "eIaBGObsoqOKDNuxdfbBQgKMCMPWmM",
+  "hovedomraderInnledning" : "GynbbkWUorxVcmPlBwg",
+  "hovedomraderOverskrift" : "LUeVTBXVruqj",
+  "kode" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "HYDVZoYuclyLgfZjgyRtsNzkSFYbvKAo",
+      "slutt" : 1561393371991,
+      "start" : 1879176073334
+    },
+    "identifikatorverdi" : "yQfGuMCS"
+  },
+  "kompetansemalInnledning" : "qGimHHWd",
+  "navn" : "JXmIOIXnQnSpuNSknvfXvLdbCaFu",
+  "sisteEksamen" : "IZHoKMWfbv",
+  "sprak" : "VQvVROxyVEcsCyQtbPB",
+  "struktur" : "AYFluBOuAVIbjSRPDcSGwh",
+  "timetall" : "m",
+  "utgatt" : "tLjesaGXbMOAd",
+  "vurderingIFaget" : "owOJ",
+  "psi" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "vGiZyNhpWpLvjXPhIzxEhpGhzyuF",
+      "slutt" : 1464352936135,
+      "start" : 1416018554627
+    },
+    "identifikatorverdi" : "EqhMfaVmqYokwGeTlIbInihAnqzOr"
+  }
+}

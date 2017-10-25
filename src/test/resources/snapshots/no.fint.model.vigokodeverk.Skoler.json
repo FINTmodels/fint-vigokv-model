@@ -1,0 +1,33 @@
+{
+  "epostadresse" : "yqSYDDf",
+  "fylkesnummer" : "SCdlgjSBFNBRJKwgnuV",
+  "gateadresse" : "PmXorcljyKMjFJbLUNd",
+  "gyldigFoM" : "LyVTuBeQtOZeQWRGgMJbwuMQgEabY",
+  "gyldigToM" : "YTnOwkio",
+  "kommunenummer" : "rNIFGj",
+  "navn" : "fSguggkXolPdYw",
+  "nummer" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "LezrZYJwcGlo",
+      "slutt" : 1391465624477,
+      "start" : 1636857390287
+    },
+    "identifikatorverdi" : "bJZoZBKBJ"
+  },
+  "organisasjonsnummer" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "NjIImfMnlb",
+      "slutt" : 1418128383184,
+      "start" : 1531058239445
+    },
+    "identifikatorverdi" : "tW"
+  },
+  "postadresse" : "vGlzzvwViZQljDvqKHnlnxp",
+  "postnummer" : "weliApBTqmCLSta",
+  "privatskole" : "HICGiQWaCKIyH",
+  "skoleeier" : "IIWTziyQYwuveHRqexxxMJcEOCnNI",
+  "skoletype" : "VTheHQGRwJJAarRby",
+  "telefaks" : "ExjsshWCDgDc",
+  "telefon" : "tnNjpOHIpxPiY",
+  "webadresse" : "JhcLJJKCXmIYANXiZtzElUgpoDL"
+}

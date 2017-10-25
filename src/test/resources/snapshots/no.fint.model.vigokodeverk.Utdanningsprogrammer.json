@@ -1,0 +1,39 @@
+{
+  "beskrivelse" : "zEqzEtGKWUjoAPTnrZqUXNQfpN",
+  "forsteSemester" : "OKjntQML",
+  "gyldigFoM" : "hZ",
+  "gyldigToM" : "ITJlHQuHamSLujy",
+  "kode" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "syFjsFLUdMiVDntdkmeRTzcMAPaTJ",
+      "slutt" : 1771796890496,
+      "start" : 1287404060692
+    },
+    "identifikatorverdi" : "ByybMomwWiuBiKxsbWisZbuxhoQYjiWX"
+  },
+  "navn" : "giBdybDxbvUhlhBIkCzxvdljq",
+  "navnBokmal" : "vdRaLEtSvSyROUgIKeOl",
+  "navnEngelsk" : "KFuUVpDnIBExjgxcfcBfRuXzjole",
+  "navnFransk" : "orKGGazgeAXhViNzHZbFqKccbdOesAn",
+  "navnKortform" : "IWcbVgLDbX",
+  "navnKortformEngelsk" : "AU",
+  "navnKortformNynorsk" : "djhxHef",
+  "navnKortformSamisk" : "PBWrFhnjZMhbHUblDYdcNe",
+  "navnLangt" : "qRabXhqWZEG",
+  "navnNynorsk" : "kiCWRPvTT",
+  "navnSamisk" : "h",
+  "navnSpansk" : "tEruOkAfhOIh",
+  "navnTysk" : "adnk",
+  "sisteSemester" : "YdJrNZDcqtQD",
+  "tidligereBetegnelse" : "SXXXQRobrQc",
+  "typeUtdanningsprogram" : "JzSnUZEfyvmWjckyfnJgGAGSqFoP",
+  "utgatt" : "lbfJWbwTLgFFpHtMMZLTK",
+  "psi" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "SxP",
+      "slutt" : 1827765340162,
+      "start" : 1743763574303
+    },
+    "identifikatorverdi" : "AquLLXwYlGwtkajfXHdZtbejq"
+  }
+}
