@@ -1,22 +1,19 @@
-// Built from tag feature-vigokv
+// Built from tag v2.2.0
 
 package no.fint.model.vigokodeverk;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
 import lombok.ToString;
 import java.util.List;
+import no.fint.model.*;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 @EqualsAndHashCode
 @ToString
-public class Land {
+public class Land implements FintMainObject {
 	private String gyldigFoM;
 	private String gyldigToM;
 	private Identifikator kode;
@@ -26,4 +23,3 @@ public class Land {
 	private String nyKode;
 	private String statsborgerskap;
 	}
-

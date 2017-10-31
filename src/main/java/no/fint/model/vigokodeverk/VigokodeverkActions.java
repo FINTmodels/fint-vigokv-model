@@ -1,4 +1,4 @@
-// Built from tag feature-vigokv
+// Built from tag v2.2.0
 
 package no.fint.model.vigokodeverk;
 

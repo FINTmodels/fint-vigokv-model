@@ -1,22 +1,19 @@
-// Built from tag feature-vigokv
+// Built from tag v2.2.0
 
 package no.fint.model.vigokodeverk;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
 import lombok.ToString;
 import java.util.List;
+import no.fint.model.*;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 @EqualsAndHashCode
 @ToString
-public class Hovedomrader {
+public class Hovedomrader implements FintMainObject {
 	public enum Relasjonsnavn {
 			GREP,
 			KOMPETANSEMALSETT,
@@ -29,4 +26,3 @@ public class Hovedomrader {
 	private String navn;
 	private Identifikator PSI;
 	}
-

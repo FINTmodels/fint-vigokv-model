@@ -1,22 +1,19 @@
-// Built from tag feature-vigokv
+// Built from tag v2.2.0
 
 package no.fint.model.vigokodeverk;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
 import lombok.ToString;
 import java.util.List;
+import no.fint.model.*;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 @EqualsAndHashCode
 @ToString
-public class Programomrader {
+public class Programomrader implements FintMainObject {
 	public enum Relasjonsnavn {
 			FAGUNDERPROGRAMOMRADE,
 			GREP,
@@ -69,4 +66,3 @@ public class Programomrader {
 	private String arstimerStatistikk;
 	private String arstrinn;
 	}
-
