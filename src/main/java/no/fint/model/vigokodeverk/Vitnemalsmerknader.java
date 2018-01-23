@@ -1,40 +1,62 @@
-// Built from tag v2.2.0
+// Built from tag v2.4.0-rc-3
 
 package no.fint.model.vigokodeverk;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
+import lombok.NonNull;
 import java.util.List;
 import no.fint.model.*;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
+@NoArgsConstructor
 @EqualsAndHashCode
 @ToString
 public class Vitnemalsmerknader implements FintMainObject {
-	public enum Relasjonsnavn {
-			GREP
-	}
+    public enum Relasjonsnavn {
+            GREP
+    }
 
-	private String fagskolen;
-	private String grunnskole;
-	private String gyldigFoM;
-	private String gyldigToM;
-	private Identifikator kode;
-	private String navn;
-	private String navnBokmal;
-	private String navnEngelsk;
-	private String navnKortform;
-	private String navnKortformEngelsk;
-	private String navnKortformNynorsk;
-	private String navnKortformSamisk;
-	private String navnNynorsk;
-	private String navnSamisk;
-	private Identifikator PSI;
-	private String sistEndret;
-	private String standardkommentarVitnemalType;
-	private String utgatt;
-	private String videregaende;
-	}
+    @NonNull
+    private String fagskolen;
+    @NonNull
+    private String grunnskole;
+    @NonNull
+    private String gyldigFoM;
+    @NonNull
+    private String gyldigToM;
+    @NonNull
+    private Identifikator kode;
+    @NonNull
+    private String navn;
+    @NonNull
+    private String navnBokmal;
+    @NonNull
+    private String navnEngelsk;
+    @NonNull
+    private String navnKortform;
+    @NonNull
+    private String navnKortformEngelsk;
+    @NonNull
+    private String navnKortformNynorsk;
+    @NonNull
+    private String navnKortformSamisk;
+    @NonNull
+    private String navnNynorsk;
+    @NonNull
+    private String navnSamisk;
+    @NonNull
+    private Identifikator PSI;
+    @NonNull
+    private String sistEndret;
+    @NonNull
+    private String standardkommentarVitnemalType;
+    @NonNull
+    private String utgatt;
+    @NonNull
+    private String videregaende;
+}

@@ -1,46 +1,72 @@
-// Built from tag v2.2.0
+// Built from tag v2.4.0-rc-3
 
 package no.fint.model.vigokodeverk;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
+import lombok.NonNull;
 import java.util.List;
 import no.fint.model.*;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
+@NoArgsConstructor
 @EqualsAndHashCode
 @ToString
 public class Utdanningsprogrammer implements FintMainObject {
-	public enum Relasjonsnavn {
-			GREP,
-			ERSTATTER,
-			PROGRAMOMRADE
-	}
+    public enum Relasjonsnavn {
+            GREP,
+            ERSTATTER,
+            PROGRAMOMRADE
+    }
 
-	private String beskrivelse;
-	private String forsteSemester;
-	private String gyldigFoM;
-	private String gyldigToM;
-	private Identifikator kode;
-	private String navn;
-	private String navnBokmal;
-	private String navnEngelsk;
-	private String navnFransk;
-	private String navnKortform;
-	private String navnKortformEngelsk;
-	private String navnKortformNynorsk;
-	private String navnKortformSamisk;
-	private String navnLangt;
-	private String navnNynorsk;
-	private String navnSamisk;
-	private String navnSpansk;
-	private String navnTysk;
-	private Identifikator PSI;
-	private String sisteSemester;
-	private String tidligereBetegnelse;
-	private String typeUtdanningsprogram;
-	private String utgatt;
-	}
+    @NonNull
+    private String beskrivelse;
+    @NonNull
+    private String forsteSemester;
+    @NonNull
+    private String gyldigFoM;
+    @NonNull
+    private String gyldigToM;
+    @NonNull
+    private Identifikator kode;
+    @NonNull
+    private String navn;
+    @NonNull
+    private String navnBokmal;
+    @NonNull
+    private String navnEngelsk;
+    @NonNull
+    private String navnFransk;
+    @NonNull
+    private String navnKortform;
+    @NonNull
+    private String navnKortformEngelsk;
+    @NonNull
+    private String navnKortformNynorsk;
+    @NonNull
+    private String navnKortformSamisk;
+    @NonNull
+    private String navnLangt;
+    @NonNull
+    private String navnNynorsk;
+    @NonNull
+    private String navnSamisk;
+    @NonNull
+    private String navnSpansk;
+    @NonNull
+    private String navnTysk;
+    @NonNull
+    private Identifikator PSI;
+    @NonNull
+    private String sisteSemester;
+    @NonNull
+    private String tidligereBetegnelse;
+    @NonNull
+    private String typeUtdanningsprogram;
+    @NonNull
+    private String utgatt;
+}

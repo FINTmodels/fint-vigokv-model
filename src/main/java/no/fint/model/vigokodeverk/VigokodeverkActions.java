@@ -1,4 +1,4 @@
-// Built from tag v2.2.0
+// Built from tag v2.4.0-rc-3
 
 package no.fint.model.vigokodeverk;
 

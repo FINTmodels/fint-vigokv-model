@@ -1,68 +1,109 @@
-// Built from tag v2.2.0
+// Built from tag v2.4.0-rc-3
 
 package no.fint.model.vigokodeverk;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
+import lombok.NonNull;
 import java.util.List;
 import no.fint.model.*;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
+@NoArgsConstructor
 @EqualsAndHashCode
 @ToString
 public class Fag implements FintMainObject {
-	public enum Relasjonsnavn {
-			EKSAMENSVURDERINGELEV,
-			EKSAMENSVURDERINGPRIVATIST,
-			ERSTATTER,
-			MERKELAPP,
-			FAGTYPE,
-			STANDARDKOMMENTAR,
-			GREP,
-			OPPLARINGSFAG,
-			PABYGNING,
-			TILHORERPROGRAMOMRADE
-	}
+    public enum Relasjonsnavn {
+            EKSAMENSVURDERINGELEV,
+            EKSAMENSVURDERINGPRIVATIST,
+            ERSTATTER,
+            MERKELAPP,
+            FAGTYPE,
+            STANDARDKOMMENTAR,
+            GREP,
+            OPPLARINGSFAG,
+            PABYGNING,
+            TILHORERPROGRAMOMRADE
+    }
 
-	private String elevtgrl;
-	private String fagskolen;
-	private String forsteEksamen;
-	private String forstUndervist;
-	private String gammelFagkode;
-	private String gyldigFoM;
-	private String gyldigToM;
-	private String hjelpemidler;
-	private String hjelpemidlerSentralEksamen;
-	private String importer;
-	private Identifikator kode;
-	private String merknad;
-	private String navn;
-	private String navnBokmal;
-	private String navnEngelsk;
-	private String navnFransk;
-	private String navnKortform;
-	private String navnKortformEngelsk;
-	private String navnKortformNynorsk;
-	private String navnKortformSamisk;
-	private String navnLangt;
-	private String navnNynorsk;
-	private String navnSamisk;
-	private String navnSpansk;
-	private String navnTysk;
-	private String nettoOmfang;
-	private String omfangVitnemal;
-	private String oppgavetype;
-	private Identifikator PSI;
-	private String sensurtype;
-	private String sisteEksamen;
-	private String sistUndervist;
-	private String standardKommentar;
-	private String totaltOmfang;
-	private String tverrfag;
-	private String utenStandpunkt;
-	private String utgatt;
-	private String arstimerStatistikk;
-	}
+    @NonNull
+    private String elevtgrl;
+    @NonNull
+    private String fagskolen;
+    @NonNull
+    private String forsteEksamen;
+    @NonNull
+    private String forstUndervist;
+    @NonNull
+    private String gammelFagkode;
+    @NonNull
+    private String gyldigFoM;
+    @NonNull
+    private String gyldigToM;
+    @NonNull
+    private String hjelpemidler;
+    @NonNull
+    private String hjelpemidlerSentralEksamen;
+    @NonNull
+    private String importer;
+    @NonNull
+    private Identifikator kode;
+    @NonNull
+    private String merknad;
+    @NonNull
+    private String navn;
+    @NonNull
+    private String navnBokmal;
+    @NonNull
+    private String navnEngelsk;
+    @NonNull
+    private String navnFransk;
+    @NonNull
+    private String navnKortform;
+    @NonNull
+    private String navnKortformEngelsk;
+    @NonNull
+    private String navnKortformNynorsk;
+    @NonNull
+    private String navnKortformSamisk;
+    @NonNull
+    private String navnLangt;
+    @NonNull
+    private String navnNynorsk;
+    @NonNull
+    private String navnSamisk;
+    @NonNull
+    private String navnSpansk;
+    @NonNull
+    private String navnTysk;
+    @NonNull
+    private String nettoOmfang;
+    @NonNull
+    private String omfangVitnemal;
+    @NonNull
+    private String oppgavetype;
+    @NonNull
+    private Identifikator PSI;
+    @NonNull
+    private String sensurtype;
+    @NonNull
+    private String sisteEksamen;
+    @NonNull
+    private String sistUndervist;
+    @NonNull
+    private String standardKommentar;
+    @NonNull
+    private String totaltOmfang;
+    @NonNull
+    private String tverrfag;
+    @NonNull
+    private String utenStandpunkt;
+    @NonNull
+    private String utgatt;
+    @NonNull
+    private String arstimerStatistikk;
+}

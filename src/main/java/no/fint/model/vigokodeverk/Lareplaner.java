@@ -1,51 +1,79 @@
-// Built from tag v2.2.0
+// Built from tag v2.4.0-rc-3
 
 package no.fint.model.vigokodeverk;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
+import lombok.NonNull;
 import java.util.List;
 import no.fint.model.*;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
+@NoArgsConstructor
 @EqualsAndHashCode
 @ToString
 public class Lareplaner implements FintMainObject {
-	public enum Relasjonsnavn {
-			GREP,
-			MERKELAPP,
-			ERSTATTER,
-			HOVEDOMRADE,
-			KOMPETANSEMALSETT,
-			PROGRAMOMRADE
-	}
+    public enum Relasjonsnavn {
+            GREP,
+            MERKELAPP,
+            ERSTATTER,
+            HOVEDOMRADE,
+            KOMPETANSEMALSETT,
+            PROGRAMOMRADE
+    }
 
-	private String dokumentreferanse;
-	private String formal;
-	private String forsteEksamen;
-	private String grunnleggendeFerdighetBeskrivelse;
-	private String grunnleggendeFerdighetDigitaleVerktoy;
-	private String grunnleggendeFerdighetFritekst;
-	private String grunnleggendeFerdighetLese;
-	private String grunnleggendeFerdighetMuntlig;
-	private String grunnleggendeFerdighetRegne;
-	private String grunnleggendeFerdighetSkriftlig;
-	private String gyldigFra;
-	private String gyldigTil;
-	private String hovedomraderIFaget;
-	private String hovedomraderInnledning;
-	private String hovedomraderOverskrift;
-	private Identifikator kode;
-	private String kompetansemalInnledning;
-	private String navn;
-	private Identifikator PSI;
-	private String sisteEksamen;
-	private String sprak;
-	private String struktur;
-	private String timetall;
-	private String utgatt;
-	private String vurderingIFaget;
-	}
+    @NonNull
+    private String dokumentreferanse;
+    @NonNull
+    private String formal;
+    @NonNull
+    private String forsteEksamen;
+    @NonNull
+    private String grunnleggendeFerdighetBeskrivelse;
+    @NonNull
+    private String grunnleggendeFerdighetDigitaleVerktoy;
+    @NonNull
+    private String grunnleggendeFerdighetFritekst;
+    @NonNull
+    private String grunnleggendeFerdighetLese;
+    @NonNull
+    private String grunnleggendeFerdighetMuntlig;
+    @NonNull
+    private String grunnleggendeFerdighetRegne;
+    @NonNull
+    private String grunnleggendeFerdighetSkriftlig;
+    @NonNull
+    private String gyldigFra;
+    @NonNull
+    private String gyldigTil;
+    @NonNull
+    private String hovedomraderIFaget;
+    @NonNull
+    private String hovedomraderInnledning;
+    @NonNull
+    private String hovedomraderOverskrift;
+    @NonNull
+    private Identifikator kode;
+    @NonNull
+    private String kompetansemalInnledning;
+    @NonNull
+    private String navn;
+    @NonNull
+    private Identifikator PSI;
+    @NonNull
+    private String sisteEksamen;
+    @NonNull
+    private String sprak;
+    @NonNull
+    private String struktur;
+    @NonNull
+    private String timetall;
+    @NonNull
+    private String utgatt;
+    @NonNull
+    private String vurderingIFaget;
+}

@@ -1,28 +1,42 @@
-// Built from tag v2.2.0
+// Built from tag v2.4.0-rc-3
 
 package no.fint.model.vigokodeverk;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
+import lombok.NonNull;
 import java.util.List;
 import no.fint.model.*;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
+@NoArgsConstructor
 @EqualsAndHashCode
 @ToString
 public class Eksamensvurderinger implements FintMainObject {
-	private String gammelFagkode;
-	private String gyldigFoM;
-	private String gyldigToM;
-	private String hoyesteNiva;
-	private String navn;
-	private Identifikator PSI;
-	private String standpunkt;
-	private String typeEksamensfag;
-	private String typeEksamensformVitnemal;
-	private String typeEksamensordning;
-	private String typeVurderingsform;
-	}
+    @NonNull
+    private String gammelFagkode;
+    @NonNull
+    private String gyldigFoM;
+    @NonNull
+    private String gyldigToM;
+    @NonNull
+    private String hoyesteNiva;
+    @NonNull
+    private String navn;
+    @NonNull
+    private Identifikator PSI;
+    @NonNull
+    private String standpunkt;
+    @NonNull
+    private String typeEksamensfag;
+    @NonNull
+    private String typeEksamensformVitnemal;
+    @NonNull
+    private String typeEksamensordning;
+    @NonNull
+    private String typeVurderingsform;
+}

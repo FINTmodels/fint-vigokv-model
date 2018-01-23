@@ -1,22 +1,30 @@
-// Built from tag v2.2.0
+// Built from tag v2.4.0-rc-3
 
 package no.fint.model.vigokodeverk;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
+import lombok.NonNull;
 import java.util.List;
 import no.fint.model.*;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Data
+@NoArgsConstructor
 @EqualsAndHashCode
 @ToString
 public class Programomradekategorier implements FintMainObject {
-	private String gyldigFoM;
-	private String gyldigToM;
-	private Identifikator kode;
-	private String navn;
-	private Identifikator PSI;
-	}
+    @NonNull
+    private String gyldigFoM;
+    @NonNull
+    private String gyldigToM;
+    @NonNull
+    private Identifikator kode;
+    @NonNull
+    private String navn;
+    @NonNull
+    private Identifikator PSI;
+}
