@@ -1,33 +1,33 @@
 {
-  "epostadresse" : "yqSYDDf",
-  "fylkesnummer" : "SCdlgjSBFNBRJKwgnuV",
-  "gateadresse" : "PmXorcljyKMjFJbLUNd",
-  "gyldigFoM" : "LyVTuBeQtOZeQWRGgMJbwuMQgEabY",
-  "gyldigToM" : "YTnOwkio",
-  "kommunenummer" : "rNIFGj",
-  "navn" : "fSguggkXolPdYw",
+  "epostadresse" : "nxdlzNcUAlaAemrraD",
+  "fylkesnummer" : "qZgFdeqaxTUMvWwGCtcXys",
+  "gateadresse" : "iLqrkCHODomQuPdj",
+  "gyldigFoM" : "YgJuCdDnSEhod",
+  "gyldigToM" : "qUwUrhGwZVZTUmlrQDvmGDwIibfd",
+  "kommunenummer" : "HrbT",
+  "navn" : "FnokszLslAO",
   "nummer" : {
     "gyldighetsperiode" : {
-      "beskrivelse" : "LezrZYJwcGlo",
-      "slutt" : 1391465624477,
-      "start" : 1636857390287
+      "beskrivelse" : "zmiPCbblJkicFrCubqOGlyGhHbwoSwAd",
+      "slutt" : 1601929168701,
+      "start" : 1571857212863
     },
-    "identifikatorverdi" : "bJZoZBKBJ"
+    "identifikatorverdi" : "fzFzgqKZRBSQQUJkqKDcyIGSNHnjBkC"
   },
   "organisasjonsnummer" : {
     "gyldighetsperiode" : {
-      "beskrivelse" : "NjIImfMnlb",
-      "slutt" : 1418128383184,
-      "start" : 1531058239445
+      "beskrivelse" : "wyXptjYgYhuyGUVLiymWr",
+      "slutt" : 1798569792691,
+      "start" : 1475254096890
     },
-    "identifikatorverdi" : "tW"
+    "identifikatorverdi" : "ojiTVxyexvhRtVchJhXQimsPO"
   },
-  "postadresse" : "vGlzzvwViZQljDvqKHnlnxp",
-  "postnummer" : "weliApBTqmCLSta",
-  "privatskole" : "HICGiQWaCKIyH",
-  "skoleeier" : "IIWTziyQYwuveHRqexxxMJcEOCnNI",
-  "skoletype" : "VTheHQGRwJJAarRby",
-  "telefaks" : "ExjsshWCDgDc",
-  "telefon" : "tnNjpOHIpxPiY",
-  "webadresse" : "JhcLJJKCXmIYANXiZtzElUgpoDL"
+  "postadresse" : "WgblfONXmSkctjBLoafgZ",
+  "postnummer" : "PPog",
+  "privatskole" : "OfY",
+  "skoleeier" : "CqevYpDZMJHZvfutGj",
+  "skoletype" : "qhTYzCsuqiXqdaZplURZyqGmZH",
+  "telefaks" : "lRApMvLZjgHgKZzCBxQZQCOrKdxZgA",
+  "telefon" : "e",
+  "webadresse" : "G"
 }

@@ -1,35 +1,35 @@
 {
-  "fagskolen" : "PFLAsU",
-  "grunnskole" : "PyUdqw",
-  "gyldigFoM" : "EgxOdrwuvZIMdBXtfzzWcPB",
-  "gyldigToM" : "mjliLwmRTrNHDCcvRxapKIBOWYlecGD",
+  "fagskolen" : "TabQxwOWUyQbbsehr",
+  "grunnskole" : "AUMLmNjnWHlvuOWjfSbdn",
+  "gyldigFoM" : "gEtVi",
+  "gyldigToM" : "lxUecRVUjhNwVOozCn",
   "kode" : {
     "gyldighetsperiode" : {
-      "beskrivelse" : "HPFsyXneVj",
-      "slutt" : 1373848657842,
-      "start" : 1709529985263
+      "beskrivelse" : "VboAiJqaCcYrKAptOYGGTDvq",
+      "slutt" : 1590318032190,
+      "start" : 1349363160771
     },
-    "identifikatorverdi" : "ERMHHUxltbeYQtMx"
+    "identifikatorverdi" : "iZw"
   },
-  "navn" : "pTPwqIhzjsNi",
-  "navnBokmal" : "gsiVxwtjvn",
-  "navnEngelsk" : "TZfsrQrSJhUDINzmqFun",
-  "navnKortform" : "aswgzYPpoHKKAWOZVZMXQiuLflee",
-  "navnKortformEngelsk" : "nJYXNlKLddb",
-  "navnKortformNynorsk" : "NnLNQyzMZmLUwKt",
-  "navnKortformSamisk" : "vwvDpbYEOhC",
-  "navnNynorsk" : "Nus",
-  "navnSamisk" : "UvTUVMnJWVTW",
-  "sistEndret" : "gVwWhmFBlYWVOnG",
-  "standardkommentarVitnemalType" : "mwjoeWuxpFzWcdszdGfkoUJoGG",
-  "utgatt" : "wNHJjzqMkcUyVJtsUqBZGFHInZREtu",
-  "videregaende" : "TEvOteNXICpTY",
+  "navn" : "AiVyYLTcebEJAC",
+  "navnBokmal" : "TLyTL",
+  "navnEngelsk" : "eXFb",
+  "navnKortform" : "MZkLFqaMYpirFUMy",
+  "navnKortformEngelsk" : "xgBbUTaP",
+  "navnKortformNynorsk" : "VnKEFzqk",
+  "navnKortformSamisk" : "pzBtKVklBPGjfxhJQCe",
+  "navnNynorsk" : "hHATXlVgsgxY",
+  "navnSamisk" : "eDjWQtnMJqjftZFBX",
+  "sistEndret" : "kxYMYNRFAXmHsjpnbAiWPLNTgBOKksF",
+  "standardkommentarVitnemalType" : "kuDwINSqkAaZeMWIQKw",
+  "utgatt" : "IGDUBLKiJeicRSpxg",
+  "videregaende" : "WBVBvKO",
   "psi" : {
     "gyldighetsperiode" : {
-      "beskrivelse" : "wGJ",
-      "slutt" : 1456788835811,
-      "start" : 1488211659931
+      "beskrivelse" : "IuIvCpkrkdBeUWTtvuHeqJzLwL",
+      "slutt" : 1717389207978,
+      "start" : 1524729362046
     },
-    "identifikatorverdi" : "WyObqETPtwaIoiwZbDIQaiwQJkfBOGev"
+    "identifikatorverdi" : "xbVWowuZlRGnWoOLNRiY"
   }
 }
