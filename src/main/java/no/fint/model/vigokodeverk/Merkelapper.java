@@ -1,4 +1,4 @@
-// Built from tag v2.4.0-rc-3
+// Built from tag v2.4.0
 
 package no.fint.model.vigokodeverk;
 
@@ -21,7 +21,6 @@ public class Merkelapper implements FintMainObject {
             GREP
     }
 
-    @NonNull
     private Identifikator kode;
     @NonNull
     private String navn;

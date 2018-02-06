@@ -1,4 +1,4 @@
-// Built from tag v2.4.0-rc-3
+// Built from tag v2.4.0
 
 package no.fint.model.vigokodeverk;
 
@@ -25,6 +25,4 @@ public class Programomradekategorier implements FintMainObject {
     private Identifikator kode;
     @NonNull
     private String navn;
-    @NonNull
-    private Identifikator PSI;
 }
