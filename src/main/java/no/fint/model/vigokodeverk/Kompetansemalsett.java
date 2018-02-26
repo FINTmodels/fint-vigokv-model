@@ -1,4 +1,4 @@
-// Built from tag v2.4.0
+// Built from tag v0.99.0
 
 package no.fint.model.vigokodeverk;
 
@@ -25,11 +25,12 @@ public class Kompetansemalsett implements FintMainObject {
             FAG
     }
 
+    @NonNull
+    private String arstrinn;
+    @NonNull
     private Identifikator kode;
     @NonNull
     private String navn;
     @NonNull
     private Identifikator PSI;
-    @NonNull
-    private String arstrinn;
 }

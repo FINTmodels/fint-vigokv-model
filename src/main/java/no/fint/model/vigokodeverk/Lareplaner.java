@@ -1,4 +1,4 @@
-// Built from tag v2.4.0
+// Built from tag v0.99.0
 
 package no.fint.model.vigokodeverk;
 
@@ -58,6 +58,7 @@ public class Lareplaner implements FintMainObject {
     private String hovedomraderOverskrift;
     @NonNull
     private Identifikator kode;
+    @NonNull
     private String kompetansemalInnledning;
     @NonNull
     private String navn;

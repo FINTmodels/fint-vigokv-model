@@ -1,4 +1,4 @@
-// Built from tag v2.4.0
+// Built from tag v0.99.0
 
 package no.fint.model.vigokodeverk;
 
@@ -26,6 +26,7 @@ public class Hovedomrader implements FintMainObject {
 
     @NonNull
     private String beskrivelse;
+    @NonNull
     private Identifikator kode;
     @NonNull
     private String navn;

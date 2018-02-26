@@ -1,4 +1,4 @@
-// Built from tag v2.4.0
+// Built from tag v0.99.0
 
 package no.fint.model.vigokodeverk;
 
@@ -28,6 +28,9 @@ public class Opplaringsfag implements FintMainObject {
             TILHORERPROGRAMOMRADE
     }
 
+    @NonNull
+    private String arstimerStatistikk;
+    @NonNull
     private String delfag;
     @NonNull
     private String eksamensVurderingElev;
@@ -109,6 +112,4 @@ public class Opplaringsfag implements FintMainObject {
     private String utenStandpunkt;
     @NonNull
     private String utgatt;
-    @NonNull
-    private String arstimerStatistikk;
 }
