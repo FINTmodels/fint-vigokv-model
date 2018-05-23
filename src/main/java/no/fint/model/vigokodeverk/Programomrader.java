@@ -1,4 +1,4 @@
-// Built from tag v2.7.0
+// Built from tag v2.8.0
 
 package no.fint.model.vigokodeverk;
 
@@ -32,25 +32,13 @@ public class Programomrader implements FintMainObject {
     @NonNull
     private String apo;
     @NonNull
-    private String arstimer;
-    @NonNull
-    private String arstimerDoveTunghorte;
-    @NonNull
-    private String arstimerFormgivingsfag;
-    @NonNull
-    private String arstimerSamisk;
-    @NonNull
-    private String arstimerStatistikk;
-    @NonNull
-    private String arstrinn;
-    @NonNull
     private String avsluttendeKompetanse;
     @NonNull
     private String beskrivelse;
     @NonNull
-    private String forsteSemester;
-    @NonNull
     private String fstype;
+    @NonNull
+    private String forsteSemester;
     @NonNull
     private String gyldigFoM;
     @NonNull
@@ -107,4 +95,16 @@ public class Programomrader implements FintMainObject {
     private String typeProgramomrade;
     @NonNull
     private String utgatt;
+    @NonNull
+    private String arstimer;
+    @NonNull
+    private String arstimerDoveTunghorte;
+    @NonNull
+    private String arstimerFormgivingsfag;
+    @NonNull
+    private String arstimerSamisk;
+    @NonNull
+    private String arstimerStatistikk;
+    @NonNull
+    private String arstrinn;
 }

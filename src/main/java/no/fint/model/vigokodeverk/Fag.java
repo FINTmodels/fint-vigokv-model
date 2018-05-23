@@ -1,4 +1,4 @@
-// Built from tag v2.7.0
+// Built from tag v2.8.0
 
 package no.fint.model.vigokodeverk;
 
@@ -30,8 +30,6 @@ public class Fag implements FintMainObject {
             TILHORERPROGRAMOMRADE
     }
 
-    @NonNull
-    private String arstimerStatistikk;
     @NonNull
     private String elevtgrl;
     @NonNull
@@ -106,4 +104,6 @@ public class Fag implements FintMainObject {
     private String utenStandpunkt;
     @NonNull
     private String utgatt;
+    @NonNull
+    private String arstimerStatistikk;
 }
