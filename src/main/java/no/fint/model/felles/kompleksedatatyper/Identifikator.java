@@ -1,4 +1,4 @@
-// Built from tag v3.2.0-rc-1
+// Built from tag v3.2.0-rc-3
 
 package no.fint.model.felles.kompleksedatatyper;
 
